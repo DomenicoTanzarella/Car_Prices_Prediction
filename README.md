@@ -1,6 +1,4 @@
-# Car_Prices_Prediction
-
-## What drives the price of a car?
+# Car_Prices_Prediction: What drives the price of a car?
 
 ## OVERVIEW
 
