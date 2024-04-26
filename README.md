@@ -77,7 +77,7 @@ Last step of the initial Data Preparation would be to drop the NA values: this w
 
     Cars with price above 350000 USD
     Cars with price equal to 0
-    Cars with odoeter above 400000 miles
+    Cars with odometer above 400000 miles
 
 -Another option is to drop columns with high Na ratio:
 
@@ -85,7 +85,7 @@ Last step of the initial Data Preparation would be to drop the NA values: this w
 
 because there to do imputation on 23-37% of data might cause overfitting: we will rather create a model with less real data.
 
--Lastly, model feature has too many different values and will cause heavy memory usage during the modeling phase (especially using onehotencoding), so I need to drop that as well.
+-Lastly, the model feature column has too many different values and will cause heavy memory usage during the modeling phase (especially using one hot encoding), so I need to drop that as well.
 
 To summarize, the following columns will be dropped:
 
