@@ -115,6 +115,8 @@ We finally have a clean dataset. Let's see how the numerical values correlate:
 
 ![alt text](https://github.com/DomenicoTanzarella/Car_Prices_Prediction/blob/main/corr.png)
 
+that shows a new car is correlated to higher price and higher value of odometer brings the value of the car down, which matches common sense when people purchase a car.
+
 # Modeling
 
 With the final dataset in hand, it is now time to build some models.
