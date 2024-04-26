@@ -6,7 +6,7 @@ In this application, I will explore a dataset from kaggle. The original dataset 
 
 To frame the task, we will refer back to a standard process in industry for data projects called CRISP-DM. This process provides a framework for working through a data problem. A brief overview of CRISP-DM is here.
 
-The notebook is here ![Car_prices.ipynb](https://github.com/DomenicoTanzarella/Car_Prices_Prediction/blob/main/Car_prices.ipynb) 
+The notebook is here: [Car_prices.ipynb](https://github.com/DomenicoTanzarella/Car_Prices_Prediction/blob/main/Car_prices.ipynb) 
 
 ### Business Understanding
 
