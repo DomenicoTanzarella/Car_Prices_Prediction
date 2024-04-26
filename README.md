@@ -55,11 +55,11 @@ Two features are redundant:
     region
 
 
-# Data Preparation
+## Data Preparation
 
 After our initial exploration and fine tuning of the business understanding, it is time to construct our final dataset prior to modeling. Here, we want to make sure to handle any integrity issues and cleaning, the engineering of new features, any transformations that we believe should happen and general preparation for modeling with sklearn.
 
-## Feature removal
+### Feature removal
 
 These features don't help with the price forecast:
 
@@ -71,7 +71,7 @@ These features don't help with the price forecast:
 Last step of the initial Data Preparation would be to drop the NA values: this will likely further lower the number of data, but before doing that I want to futher massage the data in the features we have left for the data analysis.
 
 
-## Outliers removal
+### Outliers removal
 
   -After dropping several columns and duplicates row in the initial data exploration phase, now let's do more targeted cleanup.
 
@@ -117,7 +117,7 @@ We finally have a clean dataset. Let's see how the numerical values correlate:
 
 that shows a new car is correlated to higher price and higher value of odometer brings the value of the car down, which matches common sense when people purchase a car.
 
-# Modeling
+## Modeling
 
 With the final dataset in hand, it is now time to build some models.
 
@@ -158,7 +158,7 @@ Let's see what feature influence the most the price:
 
 ![alt text](https://github.com/DomenicoTanzarella/Car_Prices_Prediction/blob/main/coeff.png)
 
-# Conclusions
+## Conclusions
 
 Results are interesting: aside from the obvious that
             
